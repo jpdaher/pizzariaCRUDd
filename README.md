@@ -7,8 +7,8 @@ Um aplicativo CRUD simulando o funcionamento de um sistema de pedidos simples de
 - Rode o script que está na pasta base do projeto
   - ### CUIDADO:
     o script deletará qualquer esquema que tenha o nome ```pizzaria```. Caso não queira que isso aconteça, mude o nome do schema no script em algum editor de texto;
-- Configure o arquivo de variáveis de ambiente ```db.env``` que se encontra dentro da pasta ```pizzariaCRUD```. Valores default já estão lá, caso queira alterar, lembre-se de manter o mesmo nome do schema do script;
-- Abra o arquivo ```pizzariaCRUD.sln``` dentro da pasta ```pizzariaCRUD``` com o aplicativo Visual Studio;
+- Configure o arquivo de variáveis de ambiente ```db.env``` que se encontra dentro da pasta raiz do diretório. Valores default já estão lá, caso queira alterar, lembre-se de manter o mesmo nome do schema do script;
+- Abra o arquivo ```pizzariaCRUD.sln``` dentro da pasta raiz com o aplicativo Visual Studio;
 - Execute com o botão ```Iniciar```.
 
 ## Utilização do aplicativo
@@ -21,7 +21,7 @@ Um aplicativo CRUD simulando o funcionamento de um sistema de pedidos simples de
 - Pedidos são deletados automaticamente quando uma pizza ou um cliente relacionados a ele são deletados.
 
 ## Detalhes sobre a implementação (observada na pasta ```pizzariaCRUD```)
-![banco_de_dados](https://github.com/jpdaher/pizzariaCRUD/blob/main/banco_de_dados.png)
+![banco_de_dados](https://github.com/jpdaher/pizzariaCRUDd/blob/main/banco_de_dados.png)
 - Acima está uma foto do banco de dados gerado pelo script;
 - O arquivo ```Connection.cs``` é um auxiliar de conexão com o MySQL, lá estão definidas funções para queries e queries sem retorno;
 - Foi utilizado o padrão de projeto Singleton para garantir que só haja uma instância de conexão;
