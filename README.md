@@ -21,7 +21,7 @@ Um aplicativo CRUD simulando o funcionamento de um sistema de pedidos simples de
 - Pedidos são deletados automaticamente quando uma pizza ou um cliente relacionados a ele são deletados.
 
 ## Detalhes sobre a implementação (observada na pasta ```pizzariaCRUD```)
-![banco_de_dados](https://github.com/jpdaher/pizzariaCRUDd/blob/main/banco_de_dados.png)
+![banco_de_dados](https://github.com/jpdaher/pizzariaCRUDd/blob/master/banco_de_dados.png)
 - Acima está uma foto do banco de dados gerado pelo script;
 - O arquivo ```Connection.cs``` é um auxiliar de conexão com o MySQL, lá estão definidas funções para queries e queries sem retorno;
 - Foi utilizado o padrão de projeto Singleton para garantir que só haja uma instância de conexão;
